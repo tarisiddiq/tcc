@@ -26,6 +26,7 @@ services:
             - default
         phpmyadmin:
         image: phpmyadmin/phpmyadmin
+        container_name: phpmyadmin
         links: 
             - db:db
         ports:
